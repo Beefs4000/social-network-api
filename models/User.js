@@ -21,7 +21,7 @@ const userSchema = new Schema(
       validator: function (v) {
         return emailRegex.test(v);
       },
-      message: "Email is wrong"
+      message: "Email is incorrect"
     }
     },
         thoughts: [
