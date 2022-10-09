@@ -1,16 +1,14 @@
 <div id="top"></div>
 
-<h3 align="center">E-Commerce App</h3>
+<h3 align="center">Social Media API</h3>
 <div>
   <p align="center">
-    In this project we were tasked with building the back end for an e-commerce site by modifying some supplied starter code. 
-    I configured a working Express.js API to use Sequelize to interact with a MySQL database. This enables the user to create,
-    update and delete data in the database.
+    In this project I was tasked with making API's to access the backend of a social media website. It grants users the ability to add, remove, and update various posts, user information and reactions. I used Express.js for routing, a MongoDB database, and the Mongoose ODM.
     <br />
-    <a href="https://github.com/Beefs4000/E-commerce"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Beefs4000/social-network-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/1o_FlGMcJXm79cRTHohDzXpjLp4AUcD6V/view">View Demo</a>
+    <a href="https://drive.google.com/file/d/1k_2gFeS_8d_mt45ht4UNod0xgl_wl5OO/view">View Demo</a>
     ·
     </p>
 </div>
@@ -22,7 +20,6 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -39,24 +36,12 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-* Data Base Created
-![MySQL Database](https://github.com/Beefs4000/E-commerce/blob/c1a50267a3c30e714baf1a082d2d844b9b8af625/utilities/MySQL.jpg)
-* ![Testing using Insomnia](https://github.com/Beefs4000/E-commerce/blob/c1a50267a3c30e714baf1a082d2d844b9b8af625/utilities/Insomnia%20.jpg)
-* [Video preview](https://drive.google.com/file/d/1PSP45Lvwo-rgYuJGWlOlzAof3PcEUDJB/view)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 ### Built With
 
-* [Node.js](https://nodejs.org/en/)
-* [sequelize.js](https://sequelize.org/)
-* [express.js](https://expressjs.com/)
+* [Express.js](https://expressjs.com/)
+* [Mongo](https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_prosp-brand_gic-null_apac-au_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624341&adgroup=115749705743)
+* [Mongoose](https://mongoosejs.com/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -71,28 +56,16 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:Beefs4000/E-commerce.git
+   git@github.com:Beefs4000/social-network-api.git
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   npm i
    ```
-3. Create the database by logging in to your MySQL using the intergrated terminal  
-   ```sh
-   mysql -u root -p
-   source schema.sql
-   ```
-4. Run seed using using intergrated terminal
-   ```sh
-   npm run seed
-   ```
-5. create .env file and populate with your credentials
-   ```sh
-   ```
-6. Run app using intergrated terminal
+3. Run app using intergrated terminal
    ```sh
    npm run watch
-   ```   
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -117,9 +90,15 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Justo_Tron](https://twitter.com/Justo_Tron) - justin.dennis@hotmail.com
+Justin Dennis   [<img src="https://github.com/gauravghongde/social-icons/blob/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/PNG/White/Twitter_white.png" width="18">][5] [<img src="https://github.com/gauravghongde/social-icons/blob/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/PNG/White/Outlook_white.png" width="18">][6] [<img src="https://github.com/gauravghongde/social-icons/blob/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/PNG/White/Github_white.png" width="18">][7] [<img src="https://github.com/gauravghongde/social-icons/blob/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/PNG/White/LinkedIN_white.png" width="18">][8]
 
-Project Link: [https://github.com/Beefs4000/Testing](https://github.com/Beefs4000/E-commerce)
+
+
+
+
+[5]: https://twitter.com/Justo_Tron
+[6]: mailto:justin.dennis@hotmail.com
+[7]: https://github.com/Beefs4000
+[8]: https://www.linkedin.com/in/justin-dennis-853568114/ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
