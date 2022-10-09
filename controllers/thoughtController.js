@@ -28,7 +28,7 @@ const thoughtController = {
         if (!userData) {
           return res.status(404).json({
             message:
-              "Created a thought, but could not find the user with this ID",
+              "Created a thought, but could not find the user with this ID?",
           });
         }
         res.json({ message: "Thought created successfully" });
@@ -43,7 +43,7 @@ const thoughtController = {
         if (!thoughtData) {
           return res
             .status(404)
-            .json({ message: "No thought with this id found" });
+            .json({ message: "No thought with this id was found" });
         }
         return User.findOneAndUpdate(
           { thoughts: params.id },
